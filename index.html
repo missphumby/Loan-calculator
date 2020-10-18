@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>courseform</title>
+    <link rel="stylesheet" type="text/css" href="css/loan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  
+    <div id="container" style="align-content: center; text-align: center; margin-top: 100px; width: 40%; background-color: black; height: 350px; border: 1px solid transparent;">
+      <h2 style="color: white; font-size: 30px;">LOAN CALCULATOR</h2>
+      <p id="loan-amount" style="color: white;">Loan Amount: $<input type="number" class="loan-input" style="background-color: white;"></p>
+      <p id="interest-rate" style="color: white;">Interest Rate: %<input class="interest-input" style="background-color: white;"></p>
+      <p id="months" style="color: white;">Months to Pay: <input type="number" class="months-input" style="background-color: white;"></p>
+
+<button id="compute-loan" style="background-color: rgb(101, 190, 49); border-radius: 5px; padding: 5px; font-size: 18px;" onclick="computeLoan()">Compute Loan</button>
+<h3 style="color: white; font-size: 20px;" id="loan-output"></h3>
+    </div>
+
+    <script src="scripts/loan.js"></script>
+</body>
+</html>
